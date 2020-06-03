@@ -10,15 +10,14 @@ import {
 const facebookConfig = {
   authURL: "https://www.facebook.com/v7.0/dialog/oauth",
   redirectURL: "http://localhost:3000/facebook/callback",
-  appID: "3039241486143593",
+  appID: "[FACEBOOK_APP_ID]",
   responseType: "token",
 };
 
 const googleConfig = {
   authURL: "https://accounts.google.com/o/oauth2/v2/auth",
   redirectURL: "http://localhost:3000/google/callback",
-  appID:
-    "466189421022-2jueo47b18b1eq57h1rnesdl9895f323.apps.googleusercontent.com",
+  appID: "[GOOGLE_APP_ID]",
   responseType: "token",
   scope: "openid profile email",
 };
